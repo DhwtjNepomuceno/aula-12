@@ -1,3 +1,4 @@
+
 /* 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const mapped = arr.map(item => item * 2);
@@ -10,9 +11,10 @@ const filtered = arr.filter(item => item % 2 === 0);
 console.log(filtered);
 */
 
+
 /* 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const sum = arr.reduce((accumulator, item) => accumulator + item);
+const sum = arr.reduce((, item) => accumulator + item);
 console.log(sum);
 */
 
@@ -21,6 +23,14 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const found = arr.find(item => item === 2);
 console.log(found);
 */
+
+/* const arr = [
+{nome: "Wallace", idade: 24, sexo: "M"},
+{nome: "Josué", idade: 17, sexo: "M"},
+{nome: "Miguel", idade: 15, sexo: "M"},
+{nome: "Sophia", idade: 14, sexo: "F"} ]
+const found = arr.filter(pessoa => pessoa.idade === 1);
+console.log(found); */
 
 /* 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
